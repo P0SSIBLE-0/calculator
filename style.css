@@ -1,11 +1,18 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    height: 100vh;
+    width: 95%;
+    background: linear-gradient(to bottom right, #38FBEF, #5BAFFC);;
+}
 .container{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.82);
 }
 .btn{
     border-radius: 50%;
@@ -17,17 +24,25 @@
     margin: 5px 4px;
 }
 .btn:active{
-    background-color: rgb(255, 255, 148);
+    background-color: rgba(237, 241, 224, 0.9);
 }
 .bg-yellow{
     background-color: #fe9400;
 }
+#Clear{
+    background-color: red;
+}
+#Clear:active{
+    background-color: rgb(225, 86, 86);
+}
 #number{
     width: 273px;
     height: 38px;
+    text-align: right;
     margin: 11px 0;
+    padding: 3px 5px;
     outline: none;
     border: 2px solid #000000bf;
     border-radius: 6px;
-    font-size: 20px;
+    font-size: 25px;
 }
