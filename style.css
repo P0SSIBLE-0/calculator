@@ -4,17 +4,23 @@
 body{
     height: 100vh;
     width: 95%;
-    background: linear-gradient(to bottom right, #38FBEF, #5BAFFC);;
+    background: linear-gradient(to bottom right, #38FBEF, #5BAFFC);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
-    position: absolute;
-    top: 15%;
-    left: 36%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
     padding: 15px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.82);
 }
 .btn{
+    border: 1px solid rgba(0, 0, 0, 0.779);
     border-radius: 50%;
     height: 60px;
     width: 62px;
